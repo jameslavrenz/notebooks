@@ -1,4 +1,3 @@
-
 # Undergraduate Core Definitions in Analysis, Topology, and Algebra
 
 ---
@@ -44,7 +43,7 @@ $$
 $f$ is uniformly continuous on $A$ if
 
 $$
-\forall \varepsilon > 0,\ \exists \delta > 0 \text{ such that } |x-y| < \delta \Rightarrow |f(x)-f(y)| < \varepsilon \quad \forall x,y \in A.
+\forall \varepsilon > 0,\ \exists \delta > 0 \text{ such that } |x-y| < \delta \Rightarrow |f(x)-f(y)| < \varepsilon \ \forall x,y \in A.
 $$
 
 ---
@@ -101,7 +100,7 @@ A pair $(X,\tau)$ where $\tau \subseteq \mathcal{P}(X)$ such that:
 ## Interior
 
 $$
-\operatorname{int}(A) = \bigcup \{U \subseteq A : U \text{ open}\}
+\mathrm{int}(A) = \bigcup \{U \subseteq A : U \text{ open}\}
 $$
 
 ---
@@ -117,7 +116,7 @@ $$
 ## Boundary
 
 $$
-\partial A = \overline{A} \setminus \operatorname{int}(A)
+\partial A = \overline{A} - \mathrm{int}(A)
 $$
 
 ---
@@ -155,7 +154,7 @@ Every open cover has a finite subcover.
 
 ## Connectedness
 
-Cannot be written as union of two disjoint nonempty open sets.
+Cannot be written as a union of two disjoint nonempty open sets.
 
 ---
 
@@ -222,7 +221,7 @@ A set $R$ with $+$ and $\cdot$ such that:
 
 ## Field
 
-A commutative ring where every nonzero element has an inverse.
+A commutative ring where every nonzero element has a multiplicative inverse.
 
 ---
 
@@ -259,8 +258,8 @@ Number of vectors in a basis.
 
 $I \subseteq R$ such that:
 
-- additive subgroup
-- $rI \subseteq I$
+- additive subgroup under $+$
+- $rI \subseteq I$ for all $r \in R$
 
 ---
 
