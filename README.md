@@ -2,6 +2,14 @@
 
 DSP, Controls & AI related Google Colab notebooks.
 
+## Engineering Highlights
+
+- **Embedded-oriented numerical trade-offs:** Notebook experiments compare lookup tables, compact residual neural networks, and mixed approaches for one- to three-dimensional functions ([LUT / NN comparison](nn_vs_lut_multi_d.ipynb), [hybrid LUT model](NN_Hybrid_Using_LUT_Xipynb.ipynb)).
+- **Fixed-point exploration:** Evaluates floating-point versus fixed-point inputs and examines approximation errors in small neural networks ([fixed-point notebook](Fixed_Point_NN.ipynb)).
+- **Signal detection experiments:** Compares CNN and depthwise-separable CNN approaches on synthetic noisy transients, and MLP classification using Haar-wavelet features ([transient detector](TransientDetector.ipynb), [CNN/MLP comparison](Transient_CNN_MLP.ipynb)).
+- **Foundational algorithms:** Includes from-scratch examples for gradient descent, linear regression, and k-means clustering ([algorithm notebooks](#learning-algorithms)).
+- **Evidence boundary:** These are **exploratory Colab notebooks**, not measured MCU firmware, hardware benchmarks, or a packaged CI-tested library; see each notebook for its assumptions, code, and plots.
+
 ## Outline
 
 ### Networks, lookup tables, and fixed point
