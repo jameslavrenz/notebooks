@@ -1,6 +1,6 @@
 # notebooks
 
-ML and DL related Google Colab notebooks.
+DSP, Controls & AI related Google Colab notebooks.
 
 ## Outline
 
